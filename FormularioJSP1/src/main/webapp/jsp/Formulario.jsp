@@ -16,7 +16,6 @@
     <% String[] idioma=request.getParameterValues("idiomas");%>
     <% String comentario=request.getParameter("comentario");%>
     
-    <!-- You can display the values here, for example: -->
     <p>Nombre: <%= nombre %></p>
     <p>Apellidos: <%= apellidos %></p>
     <p>Mail: <%= mail %></p>
